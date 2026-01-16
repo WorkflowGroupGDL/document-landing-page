@@ -24,7 +24,11 @@ export const AuthoritySection = () => {
               className="flex-shrink-0"
             >
               <div className="w-32 h-32 rounded-full bg-gradient-to-br from-primary/20 to-primary/5 border-2 border-primary/30 flex items-center justify-center glow-gold">
-                <span className="text-5xl font-serif text-primary">JL</span>
+                <span className="text-5xl font-serif text-primary">
+                  <a href="javascript:;" className="avatar avatar-xl rounded-circle">
+        <img alt="Image placeholder" src="public/logo.webp">
+      </a>
+                </span>
               </div>
             </motion.div>
 
